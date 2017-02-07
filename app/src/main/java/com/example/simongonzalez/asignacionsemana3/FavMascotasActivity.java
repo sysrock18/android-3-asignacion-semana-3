@@ -7,6 +7,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
+import com.example.simongonzalez.asignacionsemana3.adapter.MascotaAdaptador;
+import com.example.simongonzalez.asignacionsemana3.pojo.Mascota;
+
 import java.util.ArrayList;
 
 public class FavMascotasActivity extends AppCompatActivity {
@@ -31,7 +34,6 @@ public class FavMascotasActivity extends AppCompatActivity {
         llm.setOrientation(LinearLayoutManager.VERTICAL);
 
         listaMascotas.setLayoutManager(llm);
-        //inicializarListaContactos();
         inicializarListaMascotas();
         inicializarAdaptador();
     }
@@ -47,8 +49,6 @@ public class FavMascotasActivity extends AppCompatActivity {
     }
 
     public void inicializarAdaptador() {
-        //ContactoAdaptador adaptador = new ContactoAdaptador(contactos, this);
-        //listaContactos.setAdapter(adaptador);
         MascotaAdaptador adaptador = new MascotaAdaptador(mascotas, this);
         listaMascotas.setAdapter(adaptador);
     }

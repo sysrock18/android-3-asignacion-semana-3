@@ -17,9 +17,26 @@
         </activity>
         <activity
             android:name=".FavMascotasActivity"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:label="@string/mascotasfav">
 
             <!-- soporte para versiones 4.0 o menores -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ContactoActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/contacto">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AcercaDeActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/acercade">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

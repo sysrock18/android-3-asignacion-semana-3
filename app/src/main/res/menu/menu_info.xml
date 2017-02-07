@@ -7,8 +7,13 @@
         android:icon="@drawable/stars"
         myapp:showAsAction="ifRoom"/>
     <item
-        android:id="@+id/menu_settings"
-        android:title="@string/menu_settings"
+        android:id="@+id/menu_contacto"
+        android:title="@string/contacto"
+        android:orderInCategory="100"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@+id/menu_acercade"
+        android:title="@string/acercade"
         android:orderInCategory="100"
         myapp:showAsAction="never" />
 </menu>

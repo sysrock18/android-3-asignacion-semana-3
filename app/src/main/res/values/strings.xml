@@ -2,5 +2,16 @@
     <string name="app_name">Petagram</string>
     <string name="txtSkate">Skate</string>
     <string name="txtTelefono">04123136580</string>
-    <string name="menu_settings">Configuración</string>
+    <string name="settings">Configuración</string>
+    <string name="contacto">Contacto</string>
+    <string name="acercade">Acerca de</string>
+    <string name="mascotasfav">Mascotas Favoritas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_mensaje">Mensaje</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="sammy">Sammy</string>
 </resources>

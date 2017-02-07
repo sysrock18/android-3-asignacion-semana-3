@@ -1,4 +1,4 @@
-package com.example.simongonzalez.asignacionsemana3;
+package com.example.simongonzalez.asignacionsemana3.pojo;
 
 /**
  * Created by simongonzalez on 12/13/16.
